@@ -1,0 +1,45 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model Cocktail
+
+<div class="text-center">
+    <h1>@Model.CocktailName</h1>
+    <hr>
+    <p>@Model.CocktailName's Cocktail ID is @Model.CocktailID.</p>
+    <hr>
+    <h2>Story</h2>
+    <p>@Model.CocktailStory</p>
+    <hr>
+    <h2>Color</h2>
+    <p>@Model.CocktailName's color is @Model.Color.ColorName.</p>
+    <hr>
+    <h2>Glass</h2>
+    <p>@Model.CocktailName is best drinkable with @Model.Glass.GlassName.</p>
+    <hr>
+    <h2>Temperature</h2>
+    <p>@Model.CocktailName is a @Model.Temperature.TemperatureName drink.</p>
+    <hr>
+    <h2>Preparation</h2>
+    <p>@Model.Preparation.PreparationDescription</p>
+    <hr>
+    <h2>Ingredients</h2>
+    @foreach(var item in Model.Ingredients)
+    {
+        <label>Type: @item.IngredientsName</label>
+        <br>
+        <label>Amount: @item.IngredientsAmount ml</label>
+        <br>
+        <label>Alcohol Percent (in ABV): @item.IngredientsAlcoholPercent %</label>
+        <br>
+        <br>
+    }
+    <hr>
+    <h2>Didn't you like this cocktail?</h2>
+    <p>Then, you may @Html.ActionLink("delete", "Delete", "Cocktail", new { index = @Model.CocktailID }) this cocktail from database</p>
+
+
+</div>

@@ -1,0 +1,22 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model List<Cocktail>;
+@{
+
+}
+
+<div class="text-center">
+    <p>Here is the list of cocktails in database.</p>
+    
+    @foreach (var item in Model)
+    {
+        <hr>
+        <h1>
+            @Html.ActionLink(item.CocktailName, "Index", "Cocktail", new { index = item.CocktailID })
+        </h1>
+        <p>
+            @item.CocktailStory
+        </p>
+    }
+</div>

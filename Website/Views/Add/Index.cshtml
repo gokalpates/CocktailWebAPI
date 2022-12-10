@@ -1,0 +1,73 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model Cocktail
+
+<div class="text-center">
+    <p>Add necessary info for your cocktail.</p>
+    <hr />
+
+    @using (Html.BeginForm())
+    {
+        <label>Name: </label>
+        @Html.TextBoxFor(s => s.CocktailName);
+        <br />
+        <br />
+
+        <label>Story: </label>
+        @Html.TextBoxFor(s => s.CocktailStory);
+        <br />
+        <br />
+
+        <label>Color Name: </label>
+        @Html.TextBoxFor(s => s.Color.ColorName);
+        <br />
+        <br />
+
+        <label>Glass Name: </label>
+        @Html.TextBoxFor(s => s.Glass.GlassName);
+        <br />
+        <br />
+
+        <label>Preparation: </label>
+        @Html.TextBoxFor(s => s.Preparation.PreparationDescription);
+        <br />
+        <br />
+
+        <label>Temperature: </label>
+        @Html.TextBoxFor(s => s.Temperature.TemperatureName);
+        <br />
+        <br />
+
+        <p>Add two Ingredients.</p>
+        <hr />
+
+        @for (var i = 1; i < 3; i++)
+        {
+            <label>@i.ToString(). Ingredient</label>
+            <br />
+            <br />
+
+            <label>Name: </label>
+            @Html.TextBoxFor(s => s.Ingredients[i].IngredientsName);
+            <br />
+            <br />
+
+            <label>Amount (in ml): </label>
+            @Html.TextBoxFor(s => s.Ingredients[i].IngredientsAmount);
+            <br />
+            <br />
+
+            <label>Alcohol Percent (in ABV%): </label>
+            @Html.TextBoxFor(s => s.Ingredients[i].IngredientsAlcoholPercent);
+            <br />
+            <br />
+            <hr />
+        }
+
+        <input type="submit" value="Add Cocktail" />
+    }
+</div>
