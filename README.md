@@ -37,3 +37,7 @@ Project has multiple dependencies.
 - EF Core must come with solution. But if somehow EF Core is not installed, then install them manually using Nuget Package Manager.
 - Do initial migration(s) using package manager console.
 - You are ready to go. If you want to add some default cocktails, then use sample objects in "SampleCocktails.txt" with SwaggerUI's post method.
+
+## Visual Outputs
+
+Four visual outputs of frontend using sample cocktails can be found in sub folder named Outputs.
