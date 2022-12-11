@@ -1,0 +1,159 @@
+//Martini object.
+
+{
+  "cocktailName": "Martini",
+  "cocktailStory": "One prevalent theory points to the town of Martinez, California, where historians and town inhabitants alike claim the drink was invented during the mid-1800s Gold Rush. Apparently, a gold miner who had recently struck it rich decided to celebrate his good fortune at a local bar.",
+  "color": {
+    "colorName": "White"
+  },
+  "glass": {
+    "glassName": "Martini Glass"
+  },
+  "ingredients": [
+    {
+      "ingredientsName": "Dry Vermouth",
+      "ingredientsAmount": 15,
+      "ingredientsAlcoholPercent": 17.5
+    },
+    {
+      "ingredientsName": "Gin",
+      "ingredientsAmount": 60,
+      "ingredientsAlcoholPercent": 40
+    }
+  ],
+  "preparation": {
+    "preparationDescription": " Place the gin or vodka and dry vermouth in a mixing glass. Stir and strain: Add cubed ice and stir for 30 seconds until the Martini is chilled. Strain the drink into your chilled Martini glass. Garnish the drink: Pare a lemon peel, and express (pinch) the back of the lemon peel over the martini."
+  },
+  "temperature": {
+    "temperatureName": "Cold"
+  }
+}
+
+//Old fashioned object.
+
+{
+  "cocktailName": "Old Fashioned",
+  "cocktailStory": "The Pendennis Club, a gentlemen's club founded in 1881 in Louisville, Kentucky, claims the old-fashioned cocktail was invented there. The recipe was said to have been invented by a bartender at that club in honor of Colonel James E.",
+  "color": {
+    "colorName": "Light Brown"
+  },
+  "glass": {
+    "glassName": "Old Fashioned Glass"
+  },
+  "ingredients": [
+    {
+      "ingredientsName": "Whiskey",
+      "ingredientsAmount": 50,
+      "ingredientsAlcoholPercent": 40
+    }
+  ],
+  "preparation": {
+    "preparationDescription": "Add the sugar and bitters into a mixing glass, then add the water, and stir until the sugar is nearly dissolved. Fill the mixing glass with ice, add the whiskey, and stir until well-chilled. Strain into a rocks glass over one large ice cube. Express the oil of an orange twist over the glass, then drop into the glass to garnish. "
+  },
+  "temperature": {
+    "temperatureName": "Cold"
+  }
+}
+
+//White russian object.
+
+{
+  "cocktailName": "White Russian",
+  "cocktailStory": "The drink was conceived in 1949 when Gustave Tops, a Belgian barman, created the cocktail, along with its sister cocktail, the black Russian – a White Russian without any cream - at the Hotel Metropole in Brussels in honor of Perle Mesta, then U.S. ambassador to Luxembourg.",
+  "color": {
+    "colorName": "White"
+  },
+  "glass": {
+    "glassName": "Old Fashioned Glass"
+  },
+  "ingredients": [
+    {
+      "ingredientsName": "Kahlua",
+      "ingredientsAmount": 30,
+      "ingredientsAlcoholPercent": 16
+    },
+    {
+      "ingredientsName": "Absolut Vodka",
+      "ingredientsAmount": 30,
+      "ingredientsAlcoholPercent": 40
+    },
+    {
+      "ingredientsName": "Heavy Cream",
+      "ingredientsAmount": 30,
+      "ingredientsAlcoholPercent": 0
+    }
+  ],
+  "preparation": {
+    "preparationDescription": "Fill a glass with ice. Add Kahlúa coffee liqueur and Absolut Vodka. Finish off with a layer of your favorite cream."
+  },
+  "temperature": {
+    "temperatureName": "Cold"
+  }
+}
+
+//Negroni object.
+
+{
+  "cocktailName": "Negroni",
+  "cocktailStory": "When the topic of the drink’s history and origin is traversed, there has always been room for debate. It is said that the Negroni was born out of the Milano-Torino, which was invented in the 1860s at Caffe Camparino in Milan, Italy. Being popular among Americans who often requested for the drink to be modified with a splash of soda water, the name, Americano, was born.",
+  "color": {
+    "colorName": "Light Orange"
+  },
+  "glass": {
+    "glassName": "Old Fashioned Glass"
+  },
+  "ingredients": [
+    {
+      "ingredientsName": "London Dry Gin",
+      "ingredientsAmount": 25,
+      "ingredientsAlcoholPercent": 60
+    },
+    {
+      "ingredientsName": "Sweet Vermouth",
+      "ingredientsAmount": 25,
+      "ingredientsAlcoholPercent": 16.5
+    },
+    {
+      "ingredientsName": "Campari",
+      "ingredientsAmount": 25,
+      "ingredientsAlcoholPercent": 28.5
+    }
+  ],
+  "preparation": {
+    "preparationDescription": "Pour the gin, vermouth and Campari into a mixing glass or jug with ice. Stir well until the outside of the glass feels cold. Strain into a tumbler and add 1 large ice sphere or some fresh ice, and garnish with an orange slice, using a blood orange when in season."
+  },
+  "temperature": {
+    "temperatureName": "Cold"
+  }
+}
+
+//Bloody mary object.
+
+{
+  "cocktailName": "Bloody Mary",
+  "cocktailStory": "Some stories suggest that the Bloody Mary was named after a server named Mary who worked at a saloon bar called The Bucket Of Blood in Chicago. Others claim it was named after Queen Mary Tudor of England. No one knows for sure, but as Prohibition waned the drink took off in America and the name stuck.",
+  "color": {
+    "colorName": "Light Red"
+  },
+  "glass": {
+    "glassName": "Highball Glass"
+  },
+  "ingredients": [
+    {
+      "ingredientsName": "Vodka",
+      "ingredientsAmount": 100,
+      "ingredientsAlcoholPercent": 40
+    },
+    {
+      "ingredientsName": "Tomato Juice",
+      "ingredientsAmount": 500,
+      "ingredientsAlcoholPercent": 0
+    }
+  ],
+  "preparation": {
+    "preparationDescription": "Combine tomato juice, vodka, lemon juice, hot pepper sauce, Worcestershire sauce, salt, black pepper, and 1 cup ice in a mixing glass. Stir until chilled and strain into ice-filled pint glass or goblet. Garnish with a celery stalk."
+  },
+  "temperature": {
+    "temperatureName": "Cold"
+  }
+}
